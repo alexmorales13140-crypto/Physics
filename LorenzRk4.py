@@ -1,4 +1,3 @@
-#solemne 1
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -62,6 +61,7 @@ plt.ylabel("z")
 plt.title("Strange attractor")
 
 plt.show()
+
 
 
 
