@@ -20,14 +20,22 @@ Current focus areas include **Chaos Theory**, **Molecular Dynamics**, and **Stat
     * Analysis of sensitivity to initial conditions (The "Butterfly Effect").
     * 3D Phase-space visualization.
 
-### 2. Molecular Dynamics (N-Body Physics)
+### 2. Complex Analysis & Fractals
+* **Core Script:** `Newton-Raphson.py`
+* **Model:** Newton Fractals (Basins of Attraction).
+* **Engineering:**
+    * **Vectorized Grid Search:** Optimized mapping of the complex plane using NumPy broadcasting instead of slow scalar loops.
+    * **Convergence Analysis:** Visualizing the number of iterations required to reach stability (Roots of Unity).
+    * **Visualization:** Generates high-resolution fractal maps for $z^n - 1 = 0$.
+
+### 3. Molecular Dynamics (N-Body Physics)
 * **Status:** *[Active / In Progress]*
 * **Model:** Lennard-Jones Gas Simulation.
 * **Engineering:**
     * **Verlet Integrator:** Custom logic for stable, energy-conserving particle motion.
     * **Vectorized Physics:** Handling multi-agent interactions using NumPy matrix operations instead of slow iterative loops.
 
-### 3. Statistical Mechanics
+### 4. Statistical Mechanics
 * **Status:** *[Planned]*
 * **Model:** Ising Model (Ferromagnetism).
 * **Engineering:** Monte Carlo simulations using the Metropolis algorithm to study phase transitions.
